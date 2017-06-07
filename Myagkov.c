@@ -6,10 +6,7 @@ int main(int argc, char *argv[]) {
     char str[255], name[255];
 	int i=0, j=1, c=0, max, pos, k;
 	int *command, *lenta;
-
-
-	command = (int*)malloc((j)*sizeof(int));
-
+	
 	if (argc != 2) {
 		printf("Enter file name.\n");
 		scanf("%s", name);
